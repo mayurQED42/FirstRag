@@ -9,13 +9,13 @@ PINECONE_ENV=us-east-1
 
 Create and activate a virtual environment:
 
-python -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate
 
 
 Install dependencies:
 
-pip install fastapi uvicorn python-dotenv pinecone-client openai
+pip install fastapi uvicorn python-dotenv pinecone openai python-multipart
 
 Run the Application
 
@@ -36,3 +36,6 @@ A text box
 Send button
 
 Chat-style responses
+
+// To stop
+enter "deactivate" on terminal.
